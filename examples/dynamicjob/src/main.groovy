@@ -32,7 +32,7 @@ for (current_pipeline in pipline_file_list){
 
     println("jobname is : "+parsed_job_config.job_name)
 
-    job('parsed_job_config.job_name') {
+    job(parsed_job_config.job_name) {
         steps {
         shell('echo Hello World!')
         }
