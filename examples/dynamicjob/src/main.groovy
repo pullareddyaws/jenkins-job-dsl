@@ -1,5 +1,5 @@
-@Grab ('org. yaml:snakeyaml:1.17')
-import org. yaml. snakeyaml. yaml
+@Grab ('org.yaml:snakeyaml:1.17')
+import org.yaml.snakeyaml.Yaml
 import hudson.model.*
 
 
